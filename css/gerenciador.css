@@ -1,0 +1,57 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border: 3px solid black;
+    margin: 20px 0;
+    background-color: teal;
+    color: black;
+
+
+}
+
+tr {
+    background-color: gray
+    color: black
+    font-weight: bold;
+    text-align: justify;
+    
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+    
+footer {
+    background-color: blanchedalmond;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+td {
+    color: black;
+    background-color: white;    
+    border: 1px solid black;
+    padding: 8px;
+    text-align: justify;
+
+}

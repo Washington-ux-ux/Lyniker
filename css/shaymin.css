@@ -1,0 +1,46 @@
+body {
+  background-image: url("images.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokedex-container {
+  position: relative; 
+  width: 600px; /* ajuste conforme o tamanho real da imagem pokedex.jpg */
+  height: auto;
+}
+
+.pokedex-container img.b {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.pokedex-container img.c {
+  position: absolute;
+  top: 156px;   /* ajuste para encaixar dentro da “tela” da pokedex */
+  left: 49px;  /* ajuste lateral */
+  width: 502px; /* largura da imagem dentro da pokedex */
+  height: 484px;
+  z-index: 2;
+  border-radius: 5px;
+}
+
+.pokedex-container img.a {
+    bottom: 345px ;
+    left: 240px ;
+    width: 165px;
+    height: 155px;
+    position: absolute;
+    z-index: 3;
+}
+

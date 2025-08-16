@@ -1,0 +1,110 @@
+body {
+    background-image: url("Clear.Wing.Synchro.Dragon.1024.1875114.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Centralizar tudo no topo com espaçamento */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* Leve escurecimento para legibilidade */
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+/* Pesquisa */
+.search-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.pesquisab {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+/* Login */
+.login-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login,
+.senha {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.entrar {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .login-area,
+    .search-area {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+}
+
+.carro1, .carro2, .carro3 {
+    height: auto;
+    max-width: 100%;
+}
+
+#carousel {
+    width: 80%;
+    max-width: 900px;
+}
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+}

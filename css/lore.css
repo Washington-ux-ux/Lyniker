@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  font-size: 18px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+img {
+    text-align: center;
+}
+
+.voltar-topo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 24px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: background-color 0.3s;
+  z-index: 1000;
+}
+
+.voltar-topo:hover {
+  background-color: #555;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+td{
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 20px;
+  
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+

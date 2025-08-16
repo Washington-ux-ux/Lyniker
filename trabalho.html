@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trabalho.css">
+    <!-- Metadados -->
+    <meta name="description" content="Separador de lixo">
+    <meta name="keywords" content="Residuos, IA, professor, escola, lixo inteligente">
+    <meta name="author" content="Washington Lyniker">
+     <title>trabalho - Lixo inteligente</title>
+</head> 
+<body>
+
+  
+  <h1><strong>Aluno: </strong> Washington Lyniker</h1>
+  <h2><strong>Trabalho: </strong> Lixo inteligente</h2>
+  <h3><strong>Data: </strong> 18/07/2025</h3> 
+  <h3><strong>Disciplina: </strong> Desenvolvimento de sistemas</h3>
+
+<img src="Ingenious_Skittles_Sorting_Machine.gif" alt="">
+  <hr>
+
+  
+  <h2>Objetivos a curto prazo</h2>
+  <ul class="minha-lista">
+    <li>Criar a Versão funcional da IA.</li>
+    <li>Desenvolver a identificação de pelo menos 5 tipos de resíduos.</li>
+    <li>Realizar testes de precisão da IA com meta de 90% de acurácia.</li>
+    <li>Apresentar o projeto a ONGs, escolas técnicas e cooperativas do município.</li>
+    <li>Estabelecer pelo menos 2 parcerias institucionais.</li>
+  </ul>
+  <button class="concluido" onclick="mudarCor(this, 'green')">Concluído</button>
+  <button class="nao-concluido" onclick="mudarCor(this, 'red')">Não Concluído</button>
+  <hr>
+
+  
+  <h2>Objetivos a médio prazo</h2>
+  <ul class="minha-lista">
+    <li>Ampliar o alcance e impacto da solução.</li>
+    <li>Aprimorar a tecnologia e funcionalidades da IA.</li>
+    <li>Expandir o uso do sistema em outras cidades e centros de triagem.</li>
+    <li>Estabelecer pelo menos 3 parcerias ativas com instituições.</li>
+    <li>Criar novos módulos na IA (detecção de lixo perigoso, eletrônico etc.).</li>
+  </ul>
+  <button class="concluido" onclick="mudarCor(this, 'green')">Concluído</button>
+  <button class="nao-concluido" onclick="mudarCor(this, 'red')">Não Concluído</button>
+  <hr>
+
+  
+  <h2>Objetivos a longo prazo</h2>
+  <ul class="minha-lista">
+    <li>Tornar-se referência nacional em tecnologia para resíduos sólidos.</li>
+    <li>Expandir para o mercado privado e contratos com prefeituras.</li>
+    <li>Licenciar o sistema para uso em programas municipais e estaduais.</li>
+    <li>Implementar a IA em lixões controlados, aterros e caminhões inteligentes.</li>
+    <li>Criar parcerias com grandes empresas de tecnologia e sustentabilidade.</li>
+  </ul>
+   <button class="concluido" onclick="mudarCor(this, 'green')">Concluído</button>
+  <button class="nao-concluido" onclick="mudarCor(this, 'red')">Não Concluído</button>
+  <hr>
+
+
+  <script>
+    function mudarCor(botao, cor) {
+     const lista = botao.previousElementSibling;
+let ul = null;
+
+
+let elemento = botao.previousElementSibling;
+while (elemento) {
+  if (elemento.tagName === 'UL') {
+    ul = elemento;
+    break;
+  }
+  elemento = elemento.previousElementSibling;
+}
+if (ul) {
+        ul.style.backgroundColor = cor;
+        ul.style.color = 'white';
+    }
+   
+   
+    const outroBotao = cor === 'green' ? botao.nextElementSibling : botao.previousElementSibling;
+    if (outroBotao) {
+        outroBotao.style.display = 'inline-block';
+    }
+  }
+  </script>
+
+
+
+
+
+</body>
+</html>

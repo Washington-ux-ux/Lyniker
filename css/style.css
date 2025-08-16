@@ -1,0 +1,52 @@
+body {
+  background-color: gray;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin:  auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: relative;
+  
+  
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+hr{
+  border: none;
+  height: 10px;
+  background: gray;
+}
